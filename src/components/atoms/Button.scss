@@ -1,0 +1,35 @@
+.button {
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: #0089ff;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: #006fce;
+        transform: scale(1.049);
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #fff;
+
+        cursor: unset;
+    }
+}
+
+.button-disabled {
+
+    background-color: #0088ff66;
+
+    &:hover {
+        background-color: #0088ff66;
+        transform: scale(1);
+        cursor: not-allowed;
+    }
+
+}

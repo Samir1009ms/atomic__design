@@ -1,0 +1,32 @@
+.container {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    &__list {
+        display: flex;
+        width: 70%;
+        height: 50px;
+        background-color: darkkhaki;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-radius: 10px;
+
+        &__left {}
+
+        &__center {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        &__right {}
+    }
+}

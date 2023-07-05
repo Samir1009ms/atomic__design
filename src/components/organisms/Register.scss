@@ -1,0 +1,22 @@
+.register {
+    width: 50%;
+    height: 50%;
+    background-color: #26516a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__title {
+
+        &-text {
+            color: #fff;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+    }
+
+    &__form {}
+
+}
